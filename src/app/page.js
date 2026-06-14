@@ -51,7 +51,7 @@ import {
   BookOpen,
   ChevronRight,
 } from "lucide-react";
-
+import { FaTiktok } from "react-icons/fa";
 // === Unique micro-interactions ===
 function useTheme() {
   const [theme, setTheme] = useState("dark");
@@ -320,7 +320,7 @@ function Projects() {
       slug: "diagnoskin",
       title: "Diagnoskin",
       icon: ImagePlus,
-      desc: "AI-powered skin disease assistant with image classification, multi-intent chatbot, and explainable predictions.",
+      desc: "AI-powered skin disease assistant with CNN classification, NLP chatbot, and explainable AI pipeline.",
       tags: ["FastAPI", "Next.js", "CNN", "NLP"],
       cta: "#",
     },
@@ -337,7 +337,7 @@ function Projects() {
       title: "Spatial Analytics Dashboard",
       icon: BarChart3,
       desc: "Spatial statistical analysis and visualization dashboard for regional pattern exploration and regression modeling.",
-      tags: ["R", "Shiny", "Spatial Regression"],
+      tags: ["R Shiny", "Spatial Regression", "GIS", "Leaflet"],
       cta: "#",
     },
     {
@@ -345,15 +345,15 @@ function Projects() {
       title: "Negative Binomial Model",
       icon: TrendingUp,
       desc: "Statistical modeling for count-based prediction using Negative Binomial regression and time-series features.",
-      tags: ["R", "GLM", "Statistics"],
+      tags: ["R", "Statistics", "Negative Binomial Regression","GLM","Data Analysis"],
       cta: "#",
     },
     {
       slug: "personalwebsite",
       title: "Personal Website",
       icon: Globe,
-      desc: "Interactive personal portfolio showcasing AI, data science, and software engineering projects.",
-      tags: ["Next.js", "Tailwind", "Framer Motion"],
+      desc:  "A personal portfolio website showcasing my background, projects, research, and experiences as a Statistics student and aspiring data scientist.",
+      tags: ["Next.js","HTML","CSS","JavaScript","GitHub","Netlify"],
       cta: "#",
     },
     {
@@ -369,7 +369,7 @@ function Projects() {
       title: "Bioinformatics Analysis",
       icon: Activity,
       desc: "Data analysis pipeline for biological sequences and statistical pattern discovery in genomic datasets.",
-      tags: ["Python", "Pandas", "Bioinformatics"],
+      tags: ["R","Bioinformatics","GEO2R","Microarray","Gene Expression","limma"],
       cta: "#",
     },
     {
@@ -377,7 +377,7 @@ function Projects() {
       title: "Clustering Analysis",
       icon: Layers,
       desc: "Unsupervised learning project exploring clustering techniques for pattern discovery in multivariate data.",
-      tags: ["K-Means", "DBSCAN", "Scikit-learn"],
+      tags: ["R","Clustering","K-Means","Fuzzy C-Means","GIS"],
       cta: "#",
     },
     {
@@ -385,7 +385,7 @@ function Projects() {
       title: "Cafe Order System",
       icon: Coffee,
       desc: "Simple full-stack ordering system with database integration and real-time order processing.",
-      tags: ["Laravel", "MySQL", "Fullstack"],
+      tags: ["Next.js","Node.js","Express.js","MongoDB","JWT","Tailwind CSS"],
       cta: "#",
     },
     {
@@ -593,11 +593,13 @@ function Contact() {
                 </a>
 
                 <a
-                  href="#"
+                  href="https://www.tiktok.com/@kodokafk"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="inline-flex h-12 w-12 items-center justify-center rounded-xl shadow-lg transition hover:scale-105"
-                  style={{ backgroundColor: "#1DA1F2", color: "white" }}
+                  style={{ backgroundColor: "#000000", color: "white" }}
                 >
-                  <X className="h-6 w-6" />
+                  <FaTiktok className="h-6 w-6" />
                 </a>
 
                 <a
@@ -628,7 +630,7 @@ function Footer() {
   return (
     <footer className="px-6 pb-16">
       <div className="mx-auto max-w-6xl border-t py-6 text-sm opacity-70">
-        © {new Date().getFullYear()} You. Crafted with taste.
+        © {new Date().getFullYear()} Andri. Crafted with taste.
       </div>
     </footer>
   );

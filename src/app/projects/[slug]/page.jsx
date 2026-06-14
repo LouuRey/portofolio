@@ -65,7 +65,7 @@ const projects = [
     icon: Bot,
 
     desc:
-      "Medical-style chatbot for rash classification and explanation.",
+      "Intelligent rash classification chatbot that provides medical-style explanations and guidance.",
 
     tags: ["Flask", "TensorFlow", "PyTorch", "Next.js"],
 
@@ -79,16 +79,17 @@ const projects = [
       "/documents/poxpox.pdf",
 
     github:
-      "https://github.com/yourusername/poxpox",
+      "https://drive.google.com/drive/folders/1bLxCiSalqtJs8rFWOqjhsR9hYmwqV4Yj?usp=drive_link",
 
     demo:
-      "https://poxpox.vercel.app",
+      "#",
 
    detail:
       "This project was inspired by research conducted by the Artificial Intelligence and Big Data Research Center of Universitas Padjadjaran. As part of my undergraduate final project, I developed an AI-powered system for the classification of exanthematous viral diseases using the MSID dataset and a multi-intent chatbot. The system combines deep learning-based image classification with an intelligent chatbot capable of understanding various user intents, providing disease information, symptoms, causes, prevention strategies, and treatment recommendations in an accessible and user-friendly manner.",
     gallery: [
       "/images/poxpox-gal1.png",
       "/images/poxpox-gal2.png",
+      "/images/poxpox-gal3.jpg",
     ],
 
     features: [
@@ -107,7 +108,7 @@ const projects = [
     icon: "#",
 
     desc:
-      "Interactive dashboard for spatial regression analysis and geospatial data exploration.",
+      "Spatial statistical analysis and visualization dashboard for regional pattern exploration and regression modeling.",
 
     tags: ["R Shiny", "Spatial Regression", "GIS", "Leaflet"],
 
@@ -152,7 +153,7 @@ const projects = [
     icon: "#",
 
     desc:
-       "Statistical modeling project analyzing stunting determinants in West Java using Negative Binomial Regression.",
+       "Statistical modeling for count-based prediction using Negative Binomial regression and time-series features.",
 
     tags:  [
         "R",
@@ -167,13 +168,13 @@ const projects = [
       "/images/negativebinomial-cover.jpg",
 
     youtube:
-      "/video/spatial.mp4",
+      "/video/negativebinomial.mp4",
 
     pdf:
       "#",
 
     github:
-      "https://drive.google.com/drive/folders/1MewJiVDaIcXebkTh1cwrIZ-96936VVus",
+      "https://drive.google.com/drive/folders/1Kv_mnR0oRFUm11Pne16OQy5RaYrhU0yT?usp=drive_link",
 
     demo:
       "https://scik.org/index.php/cmbn/article/view/8929",
@@ -183,7 +184,7 @@ const projects = [
     gallery: [
       "/images/negativebinomial-gal1.jpg",
       "/images/negativebinomial-gal2.jpg",
-      "/images/spatial-gal3.jpg",
+      "/images/negativebinomial-gal3.jpg",
       
     ],
 
@@ -208,6 +209,7 @@ const projects = [
       "A personal portfolio website showcasing my background, projects, research, and experiences as a Statistics student and aspiring data scientist.",
 
     tags: [
+      "Next.js",
       "HTML",
       "CSS",
       "JavaScript",
@@ -219,7 +221,7 @@ const projects = [
       "/images/personalwebsite-cover.jpg",
 
     youtube:
-      "/video/spatial.mp4",
+      "/video/personalwebsite.mp4",
 
     pdf:
       "#",
@@ -330,7 +332,7 @@ const projects = [
       "#",
 
     github:
-      "#",
+      "https://drive.google.com/drive/folders/140_Iyzl-0ZZkkYDCZ1NGntbavvRfcx2Y?usp=drive_link",
 
     demo:
       "https://www.ncbi.nlm.nih.gov/geo/geo2r/",
@@ -339,9 +341,9 @@ const projects = [
       "This project reanalyzes public microarray datasets (GSE57178 and GSE72540) from the Gene Expression Omnibus (GEO) to investigate the molecular mechanisms of Chronic Urticaria. Differentially Expressed Genes (DEGs) were identified using GEO2R and analyzed further in R with packages such as GEOquery, limma, ggplot2, ComplexHeatmap, and EnhancedVolcano. The workflow included DEG identification, volcano plot visualization, heatmap generation, enrichment analysis, protein-protein interaction network analysis, and immune infiltration investigation. Results revealed key hub genes including IL6, PTGS2, ICAM1, TLR4, and CD14, as well as significant enrichment in NF-kB, TNF, and JAK-STAT signaling pathways.",
 
     gallery: [
-      "/images/bioinformatik-gal1.jpg",
-      "/images/bioinformatik-gal2.jpg",
-      "/images/bioinformatik-gal3.jpg",
+      "/images/bioinformatik-gal1.png",
+      "/images/bioinformatik-gal2.png",
+      "/images/bioinformatik-gal3.png",
     ],
 
     features: [
@@ -369,7 +371,7 @@ const projects = [
       "Clustering",
       "K-Means",
       "Fuzzy C-Means",
-      "Spatial Analysis",
+      "DBSCAN",
       "GIS"
     ],
 
@@ -383,10 +385,10 @@ const projects = [
       "#",
 
     github:
-      "#",
+      "https://drive.google.com/drive/folders/1xLnzgVv9VD5DKI0CduozTvuV2RmaT-fN?usp=drive_link",
 
     demo:
-      "#",
+      "https://prosiding.statistics.unpad.ac.id/?journal=prosidingsns&page=article&op=view&path%5B%5D=336",
 
     detail:
       "This project analyzes the characteristics of Indonesian provinces using clustering techniques in R. The analysis utilizes labor and economic indicators including unemployment rate (TPT), labor force participation rate (TPAK), gender ratio, and provincial minimum wage (UMP). Data were standardized before applying K-Means and Fuzzy C-Means clustering algorithms. The optimal number of clusters was determined using the Elbow Method and Silhouette Analysis. Additional evaluations included correlation analysis, cluster visualization, and spatial mapping using GIS data to identify regional patterns across Indonesia. The project demonstrates how unsupervised learning can be used to uncover similarities and differences among provinces for policy and development insights.",
