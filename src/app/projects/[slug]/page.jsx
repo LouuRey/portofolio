@@ -82,7 +82,7 @@ const projects = [
       "https://drive.google.com/drive/folders/1bLxCiSalqtJs8rFWOqjhsR9hYmwqV4Yj?usp=drive_link",
 
     demo:
-      "#",
+      "https://poxpox.vercel.app/",
 
    detail:
       "This project was inspired by research conducted by the Artificial Intelligence and Big Data Research Center of Universitas Padjadjaran. As part of my undergraduate final project, I developed an AI-powered system for the classification of exanthematous viral diseases using the MSID dataset and a multi-intent chatbot. The system combines deep learning-based image classification with an intelligent chatbot capable of understanding various user intents, providing disease information, symptoms, causes, prevention strategies, and treatment recommendations in an accessible and user-friendly manner.",
